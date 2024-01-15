@@ -36,7 +36,6 @@ The FedNuts are organized to mirror the single-sig NUTS (with the addition of `F
 | # | Description | Wallets | Mints |
 | ---- | --- | --- | --- |
 | [F-X](/fedNuts/F-X.md)   | Fedimint Consensus and Transaction Primitive | - | - |
-| [F-Y](/fedNuts/F-Y.md)   | Fedimint Default Ecash Module                | - | - |
 | [F-00](/fedNuts/F-00.md) | Cryptography and Models | [Fedi](https://fedi.xyz), [Mutiny](https://mutinywallet.com) | [Fedimint](https://fedimint.com) |
 | [F-01](/fedNuts/F-01.md) | Mint public keys | [Fedi](https://fedi.xyz), [Mutiny](https://mutinywallet.com) | [Fedimint](https://fedimint.com) |
 | [F-02](/fedNuts/F-02.md) | Keysets and keyset IDs | [Fedi](https://fedi.xyz), [Mutiny](https://mutinywallet.com) | [Fedimint](https://fedimint.com) |
