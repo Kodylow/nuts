@@ -30,27 +30,24 @@ Wallets & mints `MUST` implement all mandatory specs and `CAN` implement optiona
 
 FedNuts are corresponding threshold signature specifications for the cashu vF (`cashuF`) ecash scheme as applied in the [Fedimint protocol](https://github.com/fedimint/fedimint).
 
-The FedNuts are organized to mirror the single-sig NUTS, with the exception of the Fedimint Transaction Model (F-XX) which specifies the `Transaction` primitive of Fedimint's consensus mechanism to prevent malicious federation members from modifying ecash transactions.
+The FedNuts are organized to mirror the single-sig NUTS (with the addition of `FedNut F-X` which specifies the `Fedimint Consensus Mechanism` and `Transaction Primitive` which do not appear in single-sig Cashu and are used to prevent malicious federation members from modifying ecash transactions after broadcast.
 
 ### FedNUTs: Federated NUTs
 | # | Description | Wallets | Mints |
-|--- | --- | --- | --- |
-| [F-X](./fedNuts/F-X.md)   | Fedimint Consensus and Transaction Primitive | - | - |
-| [F-Y](./fedNuts/F-Y.md)   | Fedimint Default Ecash Module                | - | - |
-| [F-00][./fedNuts/F-00.md] | Cryptography and Models | [Fedi](https://fedi.xyz), [Mutiny](https://mutinywallet.com) | [Fedimint](https://fedimint.com) |
-| [F-01][./fedNuts/F-01.md] | Mint public keys | [Fedi](https://fedi.xyz), [Mutiny](https://mutinywallet.com) | [Fedimint](https://fedimint.com) |
-| [F-02][./fedNuts/F-02.md] | Keysets and keyset IDs | [Fedi](https://fedi.xyz), [Mutiny](https://mutinywallet.com) | [Fedimint](https://fedimint.com) |
-| [F-03][./fedNuts/F-03.md] | Swapping tokens | [Fedi](https://fedi.xyz), [Mutiny](https://mutinywallet.com) | [Fedimint](https://fedimint.com) |
-| [F-04][./fedNuts/F-04.md] | Minting tokens (Pegging-In) | [Fedi](https://fedi.xyz), [Mutiny](https://mutinywallet.com) | [Fedimint](https://fedimint.com) |
-| [F-05][./fedNuts/F-05.md] | Melting tokens (Pegging-Out) | [Fedi](https://fedi.xyz), [Mutiny](https://mutinywallet.com) | [Fedimint](https://fedimint.com) |
-| [F-06][./fedNuts/F-06.md] | Mint info | [Fedi](https://fedi.xyz), [Mutiny](https://mutinywallet.com) | [Fedimint](https://fedimint.com) |
-| [F-07][./fedNuts/F-07.md] | Token state check | [Fedi](https://fedi.xyz), [Mutiny](https://mutinywallet.com) | [Fedimint](https://fedimint.com) |
-| [F-08][./fedNuts/F-08.md] | Overpaid Fees | [Fedi](https://fedi.xyz), [Mutiny](https://mutinywallet.com) | [Fedimint](https://fedimint.com) |
-| [F-09][./fedNuts/F-09.md] | Deterministic backup and restore | - | - |
-| [F-10][./fedNuts/F-10.md] | Spending conditions | [Fedi](https://fedi.xyz) | [Fedimint](https://fedimint.com) |
-
-
-## Implementations
+| ---- | --- | --- | --- |
+| [F-X](/fedNuts/F-X.md)   | Fedimint Consensus and Transaction Primitive | - | - |
+| [F-Y](/fedNuts/F-Y.md)   | Fedimint Default Ecash Module                | - | - |
+| [F-00](/fedNuts/F-00.md) | Cryptography and Models | [Fedi](https://fedi.xyz), [Mutiny](https://mutinywallet.com) | [Fedimint](https://fedimint.com) |
+| [F-01](/fedNuts/F-01.md) | Mint public keys | [Fedi](https://fedi.xyz), [Mutiny](https://mutinywallet.com) | [Fedimint](https://fedimint.com) |
+| [F-02](/fedNuts/F-02.md) | Keysets and keyset IDs | [Fedi](https://fedi.xyz), [Mutiny](https://mutinywallet.com) | [Fedimint](https://fedimint.com) |
+| [F-03](/fedNuts/F-03.md) | Swapping tokens | [Fedi](https://fedi.xyz), [Mutiny](https://mutinywallet.com) | [Fedimint](https://fedimint.com) |
+| [F-04](/fedNuts/F-04.md) | Minting tokens (Pegging-In) | [Fedi](https://fedi.xyz), [Mutiny](https://mutinywallet.com) | [Fedimint](https://fedimint.com) |
+| [F-05](/fedNuts/F-05.md) | Melting tokens (Pegging-Out) | [Fedi](https://fedi.xyz), [Mutiny](https://mutinywallet.com) | [Fedimint](https://fedimint.com) |
+| [F-06](/fedNuts/F-06.md) | Mint info | [Fedi](https://fedi.xyz), [Mutiny](https://mutinywallet.com) | [Fedimint](https://fedimint.com) |
+| [F-07](/fedNuts/F-07.md) | Token state check | [Fedi](https://fedi.xyz), [Mutiny](https://mutinywallet.com) | [Fedimint](https://fedimint.com) |
+| [F-08](/fedNuts/F-08.md) | Overpaid Fees | [Fedi](https://fedi.xyz), [Mutiny](https://mutinywallet.com) | [Fedimint](https://fedimint.com) |
+| [F-09](/fedNuts/F-09.md) | Deterministic backup and restore | - | - |
+| [F-10](/fedNuts/F-10.md) | Spending conditions | [Fedi](https://fedi.xyz) | [Fedimint](https://fedimint.com) |
 
 [py]: https://github.com/cashubtc/cashu
 [feni]: https://github.com/cashubtc/cashu-feni
@@ -76,7 +73,3 @@ The FedNuts are organized to mirror the single-sig NUTS, with the exception of t
 [10]: 10.md
 [11]: 11.md
 [12]: 12.md
-
-## Threshold Signature Specifications
-
-Cashu's threshole
